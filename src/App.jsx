@@ -76,13 +76,13 @@ function App() {
           <div className="animate__animated animate__fadeInUp animate__delay-3s">
             <div className="flex items-center gap-3 mb-6 bg bg-zinc-800 w-fit p-4 rounded-2xl">
               <img src="./assets/faris1.png" className="w-10 rounded-md" />
-              <q>Avoid or just undertake it</q>
+              <q>Build smart. Build impactful.</q>
             </div>
             <h1 className="text-5xl font-bold mb-6">
-              <ShinyText text="Hi I'm Faris Edrik Prayoga" disabled={false} speed={3} className='custom-class' />
+              <ShinyText text="Hi I'm Nikhil Sinha" disabled={false} speed={3} className='custom-class' />
             </h1>
             <BlurText
-              text="A passionate application and web developer dedicated to crafting modern, high-performance digital experiences through innovative and user-friendly solutions."
+              text="A full-stack web developer and AI product builder crafting modern digital experiences with scalable architecture and intelligent automation."
               delay={150}
               animateBy="words"
               direction="top"
@@ -91,7 +91,7 @@ function App() {
             <div className="flex items-center sm:gap-4 gap-2">
               <a 
                 href="./assets/CV.pdf" 
-                download="Faris_Edrik_Prayoga_CV.pdf" 
+                download="Nikhil_Sinha_CV.pdf" 
                 className="font-semibold bg-[#1a1a1a] p-4 px-6 rounded-full border border-gray-700 hover:bg-[#222] transition-colors"
               >
                 <ShinyText text="Download CV" disabled={false} speed={3} className="custom-class" />
@@ -105,9 +105,9 @@ function App() {
           </div>
           <div className="md:ml-auto animate__animated animate__fadeInUp animate__delay-4s">
             <ProfileCard
-              name="Faris Edrik P"
-              title="Web Developer"
-              handle="farisedrikp"
+              name="Nikhil Sinha"
+              title="Full Stack Web Developer | AI Product Builder"
+              handle="nikhilxbuild"
               status="Online"
               contactText="Contact Me"
               avatarUrl="./assets/faris.png"
@@ -129,7 +129,7 @@ function App() {
                 </h2>
 
                 <BlurText
-                  text="I’m Faris Edrik Prayoga, a full-stack developer passionate about building modern, high-performance applications with an intuitive user experience. I enjoy working with the latest technologies like Artificial Intelligence, Machine Learning, and cloud-based development, blending creativity with precision to deliver impactful solutions. With over three years of experience and more than 20 completed projects, I’m committed to helping users and businesses grow in the digital era through functional, aesthetic, and scalable digital products."
+                  text="I’m a full-stack web developer passionate about building AI-powered applications and modern digital experiences that solve real-world problems. I enjoy creating educational and productivity-focused tools with clean UI, scalable architecture, and smart automation systems."
                   delay={150}
                   animateBy="words"
                   direction="top"
@@ -139,27 +139,27 @@ function App() {
                 <div className="flex flex-col sm:flex-row items-center sm:justify-between text-center sm:text-left gap-y-8 sm:gap-y-0 mb-4 w-full">
                   <div>
                     <h1 className="text-3xl md:text-4xl mb-1">
-                      20<span className="text-violet-500">+</span>
+                      4<span className="text-violet-500">+</span>
                     </h1>
-                    <p>Project Finished</p>
+                    <p>Flagship Projects</p>
                   </div>
                   <div>
                     <h1 className="text-3xl md:text-4xl mb-1">
-                      3<span className="text-violet-500">+</span>
+                      AI<span className="text-violet-500">+</span>
                     </h1>
-                    <p>Years of Experience</p>
+                    <p>Product Focus</p>
                   </div>
                   <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600" data-aos-once="true">
                     <h1 className="text-3xl md:text-4xl mb-1">
-                      3.81<span className="text-violet-500">/4.00</span>
+                      Udaipur<span className="text-violet-500">, IN</span>
                     </h1>
-                    <p>GPA</p>
+                    <p>Location</p>
                   </div>
                 </div>
 
 
                 <ShinyText
-                  text="Working with heart, creating with mind."
+                  text="Building educational products with AI-first thinking."
                   disabled={false}
                   speed={3}
                   className="text-sm md:text-base text-violet-400"
@@ -256,7 +256,7 @@ function App() {
             {/* Contact Form di kanan */}
             <div className="flex-1">
               <form
-                action="https://formsubmit.co/rissoppa21@gmail.com"
+                action="https://formsubmit.co/nikhilxbuild@gmail.com"
                 method="POST"
                 className="bg-zinc-800 p-10 w-full rounded-md"
                 autoComplete="off"
